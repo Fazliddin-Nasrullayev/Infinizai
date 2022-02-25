@@ -452,3 +452,32 @@
     background-color: rgb(27, 21, 21);
     transition: 0.3s;
 }
+
+/* customize section */
+
+.customize {
+    background-color: #2A313C;
+}
+
+.customize__container  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customize__block {
+    margin-top: 82px;
+}
+
+.customize__info{
+    width: 561px;
+    margin-bottom: 54px;
+}
+
+.customize__images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customize__svg1 {
+    margin-right: 127px;
+}
