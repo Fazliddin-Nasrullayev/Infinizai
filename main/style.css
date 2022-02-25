@@ -58,25 +58,32 @@
       max-width: 1440px;
       padding: 0 30px;
       margin: 0 auto;
+      position: relative;
   }
 
   .header {
-      /* max-width: 1440px;
-      padding: 0 auto;
-      margin: 0 auto; */
-      width: 100%;
+
       background-image:linear-gradient(to right, rgb(0, 0, 0, 0.88) 56%, #57B8FF 0% );
   }
 
   .nav {
+      display: flex;
+      flex-direction: column;
       padding-top: 20px;
-      padding-bottom: 214px;
+      /* padding-bottom: 214px; */
       background-image:linear-gradient(to right, rgb(0, 0, 0, 0) 56%, #57B8FF 0% );
       max-width: 1320px;
       margin: 0 auto;
       display: flex;
       align-items: center;
       justify-content: space-between;
+  }
+
+  .nav__container {
+      width: 1320px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 215px;
   }
 
   .nav__list {
@@ -127,5 +134,112 @@
 
   .nav__list__item__link:active {
     color: #684f03;
+}
+
+/* hero section */
+
+
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__title__img {
+    margin-right: 8px;
+}
+
+.hero__title {
+    margin-bottom: 26px;
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #57B8FF;
+}
+
+.hero__header {
+    margin-bottom: 45px;
+    position: relative;
+    width: 656px;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 86px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.hero__header__img {
+    position: absolute;
+    left: 219px;
+    top: 167px;
+}
+
+.hero__info {
+    margin-bottom: 53px;
+    width: 615px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #999999;
+}
+
+.hero__links {
+    margin-bottom: 250px;
+}
+
+.hero__link {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.hero__link1 {
+    margin-right: 40px;
+    padding: 21px 34px;
+    background-color: #57B8FF;
+}
+
+.hero__list {
+    position: absolute;
+    left: -30px;
+    top: 36pxpx;
+}
+
+.hero__item {
+    margin-top: 80px;
+    transform: rotate(-90deg);
+}
+
+.hero__item__link {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 25px;
+    color: #80858F;
+}
+
+.hero__item__link:hover {
+    color:  #FAC422 ;
+    transition: 0.3s;
+}
+
+.hero__item__link:active {
+    color:  #684f03 ;
+}
+
+.hero__frame__link{
+    position: absolute;
+    right: 0;
+    bottom: 270px;
 }
 
