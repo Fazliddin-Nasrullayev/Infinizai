@@ -13,28 +13,31 @@
     <header class="header">
         <nav class="nav">
             <div class="nav__container">
+                <a href="#" class="link">
                 <img class="nav__logo" src="./images/logo.svg" width="170" height="48" alt="logo image">
+
+                </a>
                 <ul class="nav__list">
                     <li class="nav__list__item">
                         <a href="#" class="nav__list__item__link nav__list__item__link2">Home</a>
                     </li>
                     <li class="nav__list__item">
-                        <a href="#" class="nav__list__item__link">About</a>
+                        <a href="#about" class="nav__list__item__link">About</a>
                     </li>
                     <li class="nav__list__item">
-                        <a href="#" class="nav__list__item__link">Team</a>
+                        <a href="#team" class="nav__list__item__link">Team</a>
                     </li>
                     <li class="nav__list__item">
-                        <a href="#" class="nav__list__item__link">Shop</a>
+                        <a href="#shop" class="nav__list__item__link" >Shop</a>
                     </li>
                     <li class="nav__list__item">
-                        <a href="#" class="nav__list__item__link nav__list__item__link1">Pages</a>
+                        <a href="#pages" class="nav__list__item__link nav__list__item__link1">Pages</a>
                     </li>
                 </ul>
 
                 <div class="nav__block">
                     <img class="nav__block__img" src="./images/nav__img.svg" alt="backet image" width="53" height="40">
-                    <a class="nav__block__link" href="#">Contact Us</a>
+                    <a class="nav__block__link" href="#contact">Contact Us</a>
                 </div>
             </div>
 
@@ -71,19 +74,19 @@
 
                     <ul class="hero__list">
                         <li class="hero__item">
-                            <a class="hero__item__link" href="">twitter</a>
+                            <a class="hero__item__link"  target="_blank" href="https://twitter.com">twitter</a>
                         </li>
 
                         <li class="hero__item">
-                            <a class="hero__item__link" href="">instagram</a>
+                            <a class="hero__item__link"  target="_blank" href="https://instagram.com">instagram</a>
                         </li>
 
                         <li class="hero__item">
-                            <a class="hero__item__link" href="">facebook</a>
+                            <a class="hero__item__link" target="_blank"  href="https://facebook.com">facebook</a>
                         </li>
                     </ul>
 
-                    <a href="#" class="hero__frame__link">
+                    <a href="https://webflow.com" target="_blank" class="hero__frame__link">
                         <img class="hero__link__img" src="./images/Frame.svg" alt="frame image">
                     </a>
                 </div>
@@ -93,7 +96,7 @@
 
     <!-- sponsor section -->
 
-    <section class="sponsor">
+    <section class="sponsor" id="about">
         <div class="container sponsor__container">
             <h2 class="sponsor__header">Our Sponsors <img  class="sponsor__header__img" src="./images/sponsor-line.svg" alt="line image blue" width="292" height="12"></h2>
             <p class="sponsor__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, nec donec in morbi pulvinar. Enim non pulvinar neque.</p>
@@ -127,7 +130,7 @@
 
     <!-- shop section -->
 
-    <section class="shop">
+    <section class="shop"  id="shop">
         <div class="container shop__container">
             <h4 class="shop__title"><img  class="shop__title__img" src="./images/fair.svg" alt="fair image" width="32" height="32">
                 FUTURE OF ESPORTS
@@ -177,7 +180,7 @@
 
     <!-- era section -->
 
-    <section class="era">
+    <section class="era" id="pages">
         <div class="container era__container">
             <div class="era__block">
                 <h4 class="era__title"><img  class="shop__title__img" src="./images/fair.svg" alt="fair image">
@@ -291,7 +294,7 @@
 
         <!-- join section -->
 
-        <section class="join">
+        <section class="join" id="team">
             <div class="container join__container">
                 <h2 class="join__header">Join the largest gaming community
                     <img  class="join__header__img" src="./images/join-line.svg" alt="join line image" width="434" height="16">
@@ -310,6 +313,55 @@
                 </form>
             </div>
         </section>
+
+        <!-- footer -->
+
+        <footer class="footer" id="contact">
+            <div class="container footer__container">
+                <ul class="footer__list">
+                    <li class="footer__list__item">
+                        <a href="#" class="link">
+                        <img  class="footer__logo" src="./images/logo.svg" alt="footer logo" width="170" height="48">
+
+                        </a>
+                        <p class="footer__info">
+                            Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc quam ac sed turpis volutpat. Cursus sed massa non .
+                        </p>
+                    </li>
+
+                    <li class="footer__list__item">
+                        <h4 class="footer__title">Menu Items</h4>
+                        <a href="#" class="footer__link">About</a>
+                        <a href="#" class="footer__link">Blog</a>
+                        <a href="#" class="footer__link">Shop</a>
+                        <a href="#" class="footer__link">Contact us</a>
+                    </li>
+
+                    <li class="footer__list__item">
+                        <h4 class="footer__title">Other Pages</h4>
+                        <a href="#" class="footer__link">Styleguide</a>
+                        <a href="#" class="footer__link">Changelog</a>
+                        <a href="#" class="footer__link">licenses</a>
+                        <a href="#" class="footer__link">Team</a>
+                    </li>
+
+                    <li class="footer__list__item">
+                        <h4 class="footer__title">Social Icons</h4>
+                        <div class="social__icons">
+                            <a target="_blank" href="https://facebook.com" class="social__icon__link"><img  class="social__icon__img" src="./images/icons8-facebook.svg" alt="social icons" width="30" height="30"></a>
+                            <a target="_blank" href="https://instagram.com" class="social__icon__link"><img  class="social__icon__img" src="./images/icons8-instagram.svg" alt="social icons" width="30" height="30"></a>
+                            <a target="_blank" href="https://tiktok.com" class="social__icon__link"><img  class="social__icon__img" src="./images/icons8-tiktok.svg" alt="social icons" width="30" height="30"></a>
+                            <a target="_blank" href="https://youtube.com" class="social__icon__link"><img  class="social__icon__img" src="./images/icons8-youtube.svg" alt="social icons" width="30" height="30"></a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+            <p class="footer__bottom__info">
+                Copyright by 2021 Flowzai
+            </p>
+
+        </footer>
 </body>
 
 </html>
