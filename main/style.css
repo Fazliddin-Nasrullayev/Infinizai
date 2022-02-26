@@ -481,3 +481,50 @@
 .customize__svg1 {
     margin-right: 127px;
 }
+
+
+/* smooth section */
+
+.smooth__list {
+    display: flex;
+}
+
+.smooth__title {
+    margin-top: 30px;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.smooth__list__item {
+    width: 480px;
+    height: 732px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.smooth__list__item1 {
+    background-image: url('./../images/smooth-image.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+}
+
+.smooth__list__item2 {
+    background-image: url('./../images/multiplayers.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+}
+
+.smooth__list__item3 {
+    background-image: url('./../images/open-world.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+}
